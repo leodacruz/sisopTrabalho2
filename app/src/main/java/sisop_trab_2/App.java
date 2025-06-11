@@ -14,6 +14,10 @@ public class App {
                 128, 128, 128 // tamanhos dos segmentos em bytes
         );
         Simulador simulador = new Simulador(config);
+        if(args.length == 0) {
+            System.out.println("Erro: Nenhum arquivo de entrada fornecido. Usando arquivo de exemplo.\n");
+            args = new String[]{"arquivo_entrada.txt"}; // arquivo de exemplo
+        }
         try {
 
             String nomeArquivo = args[0];

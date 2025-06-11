@@ -1,7 +1,7 @@
-# Trabalho 1 - SISOP 
+# Trabalho 2 - SISOP 
 
 # Como executar 1
-abaixo a forma de como executar, da forma normal. Deste jeito ele executa com base nos processos que estão no arquivo cenarioExemplo.json, que está na pasta
+abaixo a forma de como executar, da forma normal. Deste jeito ele executa com base nos processos que estão no arquivo arquivo_entrada.txt, que está na pasta
 resources, caminho:  app -> src -> main -> resources
 
 ## windows
@@ -17,11 +17,9 @@ que depois ele deixa rodar o comando normal
 Está forma de executar é para quando quer executar um cenario especifico, assim basta colocar o nome do cenario como argumento
 
 ## windows
-#### gradlew run --args='cenario1'     
-sendo o cenario1 o arquivo localizado  app -> src -> main -> resources com o nome de cenario1.json, não é necessario colocar o .json no argumento
+#### gradlew run --args='arquivo_entrada.txt'     
+sendo o arquivo_entrada.txt o arquivo localizado  app -> src -> main -> resources
 
 ## linux
-#### ./gradlew run --args='cenario1'     
-sendo o cenario1 o arquivo localizado  app -> src -> main -> resources com o nome de cenario1.json, não é necessario colocar o .json no argumento
-
-#Todos os cenarios de testes estão dentra da planilha
+#### ./gradlew run --args='arquivo_entrada.txt'     
+sendo o arquivo_entrada.txt o arquivo localizado  app -> src -> main -> resources
