@@ -8,25 +8,25 @@ public class App {
     public static void main(String[] args) {
 
         Config config = new Config(
-                10, // bits do endereço virtual (2^10 = 1024 bytes)
-                12, // bits da memória física (2^12 = 4096 bytes)
+                12, // bits do endereço virtual (2^10 = 1024 bytes)
+                10, // bits da memória física (2^12 = 4096 bytes)
                 4, // bits da página (2^4 = 16 bytes por página)
                 128, 128, 128 // tamanhos dos segmentos em bytes
         );
+
         Simulador simulador = new Simulador(config);
+
         if(args.length == 0) {
             System.out.println("Erro: Nenhum arquivo de entrada fornecido. Usando arquivo de exemplo.\n");
             args = new String[]{"arquivo_entrada.txt"}; // arquivo de exemplo
         }
-        try {
 
+        try {
             String nomeArquivo = args[0];
             simulador.executar(nomeArquivo, "saida.txt");
             System.out.println("Simulação concluída. Resultados salvos em 'saida.txt'.");
         } catch (Exception e) {
-            System.out.println("Erro: Argumento nao e um arquivo valido. Usando arquivo de exemplo.\n");
-          //  simulador.executar("arquivo_entrada.txt", "saida.txt");
-
+            throw new RuntimeException("Erro ao executar a simulação: " + e.getMessage(), e);
         }
     }
 }
