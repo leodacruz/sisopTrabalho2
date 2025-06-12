@@ -17,8 +17,8 @@ public class Config {
     public Config(int bitsEnderecoVirtual, int bitsMemoriaFisica, int bitsPagina,
                   int tamText, int tamData, int tamStack) {
 
-        if (bitsEnderecoVirtual >= bitsMemoriaFisica) {
-            throw new IllegalArgumentException("O espaço de endereços virtuais deve ser menor que a memória física.");
+        if (bitsEnderecoVirtual < bitsMemoriaFisica) {
+            throw new IllegalArgumentException("O espaço de endereços virtuais deve ser maior ou igual que a memória física.");
         }
 
         this.bitsEnderecoVirtual = bitsEnderecoVirtual;
