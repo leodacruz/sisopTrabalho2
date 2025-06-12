@@ -25,7 +25,8 @@ public class Simulador {
             if (moldura == -1) {
                 moldura = memoria.alocarPagina(ev.pagina);
                 if (moldura == -1) {
-                    writer.println("Memória física cheia. Encerrando.");
+                    System.out.println("Memoria fisica cheia. Encerrando.");
+                    writer.println("Memoria fisica cheia. Encerrando.");
                     break;
                 }
                 tabela.mapear(ev.pagina, moldura);
@@ -33,22 +34,20 @@ public class Simulador {
 
             int enderecoFisico = moldura * config.tamPagina + ev.offset;
 
-            writer.printf("Endereço Virtual: %d | Segmento: %s | Página: %d | Offset: %d | Endereço Físico: %d\n",
+            writer.printf("Endereço Virtual: %d | Segmento: %s | Pagina: %d | Offset: %d | Endereço Fisico: %d\n",
                     endereco, ev.segmento, ev.pagina, ev.offset, enderecoFisico);
         }
 
-        writer.println("\n=== Tabela de Páginas ===");
+        writer.println("\n=== Tabela de Paginas ===");
         writer.println(tabela.estadoAtual());
 
-        writer.println("\n=== Memória Física ===");
+        writer.println("\n=== Memoria Fisica ===");
         writer.println(memoria.estadoAtual());
 
         writer.close();
     }
 
     private List<Integer> lerEnderecos(String arquivo) throws IOException {
-       // System.out.println("Lendo endereços do arquivo: " + arquivo);
-
         List<Integer> lista = new ArrayList<>();
         BufferedReader reader = new BufferedReader(new FileReader(CaminhoArquivos.caminhoArquivoEntrada(arquivo)));
         String linha;
@@ -56,7 +55,6 @@ public class Simulador {
             lista.add(Integer.parseInt(linha.trim()));
         }
         reader.close();
-        // System.out.println("Endereços lidos: " + lista.size());
         return lista;
 
     }

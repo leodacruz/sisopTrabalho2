@@ -1,332 +1,691 @@
-Endereço Virtual: 10 | Segmento: TEXT | Página: 0 | Offset: 10 | Endereço Físico: 10
-Endereço Virtual: 20 | Segmento: TEXT | Página: 1 | Offset: 4 | Endereço Físico: 20
-Endereço Virtual: 250 | Segmento: DATA | Página: 15 | Offset: 10 | Endereço Físico: 42
-Endereço Virtual: 600 | Segmento: BSS | Página: 37 | Offset: 8 | Endereço Físico: 56
-Endereço Virtual: 800 | Segmento: BSS | Página: 50 | Offset: 0 | Endereço Físico: 64
-Endereço Virtual: 1023 | Segmento: BSS | Página: 63 | Offset: 15 | Endereço Físico: 95
+Endereço Virtual: 0 | Segmento: TEXT | Pagina: 0 | Offset: 0 | Endereço Fisico: 0
+Endereço Virtual: 16 | Segmento: TEXT | Pagina: 1 | Offset: 0 | Endereço Fisico: 16
+Endereço Virtual: 32 | Segmento: TEXT | Pagina: 2 | Offset: 0 | Endereço Fisico: 32
+Endereço Virtual: 48 | Segmento: TEXT | Pagina: 3 | Offset: 0 | Endereço Fisico: 48
+Endereço Virtual: 64 | Segmento: TEXT | Pagina: 4 | Offset: 0 | Endereço Fisico: 64
+Endereço Virtual: 80 | Segmento: TEXT | Pagina: 5 | Offset: 0 | Endereço Fisico: 80
+Endereço Virtual: 96 | Segmento: TEXT | Pagina: 6 | Offset: 0 | Endereço Fisico: 96
+Endereço Virtual: 112 | Segmento: TEXT | Pagina: 7 | Offset: 0 | Endereço Fisico: 112
+Endereço Virtual: 128 | Segmento: DATA | Pagina: 8 | Offset: 0 | Endereço Fisico: 128
+Endereço Virtual: 144 | Segmento: DATA | Pagina: 9 | Offset: 0 | Endereço Fisico: 144
+Endereço Virtual: 160 | Segmento: DATA | Pagina: 10 | Offset: 0 | Endereço Fisico: 160
+Endereço Virtual: 176 | Segmento: DATA | Pagina: 11 | Offset: 0 | Endereço Fisico: 176
+Endereço Virtual: 192 | Segmento: DATA | Pagina: 12 | Offset: 0 | Endereço Fisico: 192
+Endereço Virtual: 208 | Segmento: DATA | Pagina: 13 | Offset: 0 | Endereço Fisico: 208
+Endereço Virtual: 224 | Segmento: DATA | Pagina: 14 | Offset: 0 | Endereço Fisico: 224
+Endereço Virtual: 240 | Segmento: DATA | Pagina: 15 | Offset: 0 | Endereço Fisico: 240
+Endereço Virtual: 256 | Segmento: STACK | Pagina: 16 | Offset: 0 | Endereço Fisico: 256
+Endereço Virtual: 272 | Segmento: STACK | Pagina: 17 | Offset: 0 | Endereço Fisico: 272
+Endereço Virtual: 288 | Segmento: STACK | Pagina: 18 | Offset: 0 | Endereço Fisico: 288
+Endereço Virtual: 304 | Segmento: STACK | Pagina: 19 | Offset: 0 | Endereço Fisico: 304
+Endereço Virtual: 320 | Segmento: STACK | Pagina: 20 | Offset: 0 | Endereço Fisico: 320
+Endereço Virtual: 336 | Segmento: STACK | Pagina: 21 | Offset: 0 | Endereço Fisico: 336
+Endereço Virtual: 352 | Segmento: STACK | Pagina: 22 | Offset: 0 | Endereço Fisico: 352
+Endereço Virtual: 368 | Segmento: STACK | Pagina: 23 | Offset: 0 | Endereço Fisico: 368
+Endereço Virtual: 384 | Segmento: BSS | Pagina: 24 | Offset: 0 | Endereço Fisico: 384
+Endereço Virtual: 400 | Segmento: BSS | Pagina: 25 | Offset: 0 | Endereço Fisico: 400
+Endereço Virtual: 416 | Segmento: BSS | Pagina: 26 | Offset: 0 | Endereço Fisico: 416
+Endereço Virtual: 432 | Segmento: BSS | Pagina: 27 | Offset: 0 | Endereço Fisico: 432
+Endereço Virtual: 448 | Segmento: BSS | Pagina: 28 | Offset: 0 | Endereço Fisico: 448
+Endereço Virtual: 464 | Segmento: BSS | Pagina: 29 | Offset: 0 | Endereço Fisico: 464
+Endereço Virtual: 480 | Segmento: BSS | Pagina: 30 | Offset: 0 | Endereço Fisico: 480
+Endereço Virtual: 496 | Segmento: BSS | Pagina: 31 | Offset: 0 | Endereço Fisico: 496
+Endereço Virtual: 512 | Segmento: BSS | Pagina: 32 | Offset: 0 | Endereço Fisico: 512
+Endereço Virtual: 528 | Segmento: BSS | Pagina: 33 | Offset: 0 | Endereço Fisico: 528
+Endereço Virtual: 544 | Segmento: BSS | Pagina: 34 | Offset: 0 | Endereço Fisico: 544
+Endereço Virtual: 560 | Segmento: BSS | Pagina: 35 | Offset: 0 | Endereço Fisico: 560
+Endereço Virtual: 576 | Segmento: BSS | Pagina: 36 | Offset: 0 | Endereço Fisico: 576
+Endereço Virtual: 592 | Segmento: BSS | Pagina: 37 | Offset: 0 | Endereço Fisico: 592
+Endereço Virtual: 608 | Segmento: BSS | Pagina: 38 | Offset: 0 | Endereço Fisico: 608
+Endereço Virtual: 624 | Segmento: BSS | Pagina: 39 | Offset: 0 | Endereço Fisico: 624
+Endereço Virtual: 640 | Segmento: BSS | Pagina: 40 | Offset: 0 | Endereço Fisico: 640
+Endereço Virtual: 656 | Segmento: BSS | Pagina: 41 | Offset: 0 | Endereço Fisico: 656
+Endereço Virtual: 672 | Segmento: BSS | Pagina: 42 | Offset: 0 | Endereço Fisico: 672
+Endereço Virtual: 688 | Segmento: BSS | Pagina: 43 | Offset: 0 | Endereço Fisico: 688
+Endereço Virtual: 704 | Segmento: BSS | Pagina: 44 | Offset: 0 | Endereço Fisico: 704
+Endereço Virtual: 720 | Segmento: BSS | Pagina: 45 | Offset: 0 | Endereço Fisico: 720
+Endereço Virtual: 736 | Segmento: BSS | Pagina: 46 | Offset: 0 | Endereço Fisico: 736
+Endereço Virtual: 752 | Segmento: BSS | Pagina: 47 | Offset: 0 | Endereço Fisico: 752
+Endereço Virtual: 768 | Segmento: BSS | Pagina: 48 | Offset: 0 | Endereço Fisico: 768
+Endereço Virtual: 784 | Segmento: BSS | Pagina: 49 | Offset: 0 | Endereço Fisico: 784
+Endereço Virtual: 800 | Segmento: BSS | Pagina: 50 | Offset: 0 | Endereço Fisico: 800
+Endereço Virtual: 816 | Segmento: BSS | Pagina: 51 | Offset: 0 | Endereço Fisico: 816
+Endereço Virtual: 832 | Segmento: BSS | Pagina: 52 | Offset: 0 | Endereço Fisico: 832
+Endereço Virtual: 848 | Segmento: BSS | Pagina: 53 | Offset: 0 | Endereço Fisico: 848
+Endereço Virtual: 864 | Segmento: BSS | Pagina: 54 | Offset: 0 | Endereço Fisico: 864
+Endereço Virtual: 880 | Segmento: BSS | Pagina: 55 | Offset: 0 | Endereço Fisico: 880
+Endereço Virtual: 896 | Segmento: BSS | Pagina: 56 | Offset: 0 | Endereço Fisico: 896
+Endereço Virtual: 912 | Segmento: BSS | Pagina: 57 | Offset: 0 | Endereço Fisico: 912
+Endereço Virtual: 928 | Segmento: BSS | Pagina: 58 | Offset: 0 | Endereço Fisico: 928
+Endereço Virtual: 944 | Segmento: BSS | Pagina: 59 | Offset: 0 | Endereço Fisico: 944
+Endereço Virtual: 960 | Segmento: BSS | Pagina: 60 | Offset: 0 | Endereço Fisico: 960
+Endereço Virtual: 976 | Segmento: BSS | Pagina: 61 | Offset: 0 | Endereço Fisico: 976
+Endereço Virtual: 992 | Segmento: BSS | Pagina: 62 | Offset: 0 | Endereço Fisico: 992
+Endereço Virtual: 1008 | Segmento: BSS | Pagina: 63 | Offset: 0 | Endereço Fisico: 1008
+Endereço Virtual: 0 | Segmento: TEXT | Pagina: 0 | Offset: 0 | Endereço Fisico: 0
+Endereço Virtual: 16 | Segmento: TEXT | Pagina: 1 | Offset: 0 | Endereço Fisico: 16
+Endereço Virtual: 32 | Segmento: TEXT | Pagina: 2 | Offset: 0 | Endereço Fisico: 32
+Endereço Virtual: 48 | Segmento: TEXT | Pagina: 3 | Offset: 0 | Endereço Fisico: 48
+Endereço Virtual: 64 | Segmento: TEXT | Pagina: 4 | Offset: 0 | Endereço Fisico: 64
+Endereço Virtual: 80 | Segmento: TEXT | Pagina: 5 | Offset: 0 | Endereço Fisico: 80
+Endereço Virtual: 96 | Segmento: TEXT | Pagina: 6 | Offset: 0 | Endereço Fisico: 96
+Endereço Virtual: 112 | Segmento: TEXT | Pagina: 7 | Offset: 0 | Endereço Fisico: 112
+Endereço Virtual: 128 | Segmento: DATA | Pagina: 8 | Offset: 0 | Endereço Fisico: 128
+Endereço Virtual: 144 | Segmento: DATA | Pagina: 9 | Offset: 0 | Endereço Fisico: 144
+Endereço Virtual: 160 | Segmento: DATA | Pagina: 10 | Offset: 0 | Endereço Fisico: 160
+Endereço Virtual: 176 | Segmento: DATA | Pagina: 11 | Offset: 0 | Endereço Fisico: 176
+Endereço Virtual: 192 | Segmento: DATA | Pagina: 12 | Offset: 0 | Endereço Fisico: 192
+Endereço Virtual: 208 | Segmento: DATA | Pagina: 13 | Offset: 0 | Endereço Fisico: 208
+Endereço Virtual: 224 | Segmento: DATA | Pagina: 14 | Offset: 0 | Endereço Fisico: 224
+Endereço Virtual: 240 | Segmento: DATA | Pagina: 15 | Offset: 0 | Endereço Fisico: 240
+Endereço Virtual: 256 | Segmento: STACK | Pagina: 16 | Offset: 0 | Endereço Fisico: 256
+Endereço Virtual: 272 | Segmento: STACK | Pagina: 17 | Offset: 0 | Endereço Fisico: 272
+Endereço Virtual: 288 | Segmento: STACK | Pagina: 18 | Offset: 0 | Endereço Fisico: 288
+Endereço Virtual: 304 | Segmento: STACK | Pagina: 19 | Offset: 0 | Endereço Fisico: 304
+Endereço Virtual: 320 | Segmento: STACK | Pagina: 20 | Offset: 0 | Endereço Fisico: 320
+Endereço Virtual: 336 | Segmento: STACK | Pagina: 21 | Offset: 0 | Endereço Fisico: 336
+Endereço Virtual: 352 | Segmento: STACK | Pagina: 22 | Offset: 0 | Endereço Fisico: 352
+Endereço Virtual: 368 | Segmento: STACK | Pagina: 23 | Offset: 0 | Endereço Fisico: 368
+Endereço Virtual: 384 | Segmento: BSS | Pagina: 24 | Offset: 0 | Endereço Fisico: 384
+Endereço Virtual: 400 | Segmento: BSS | Pagina: 25 | Offset: 0 | Endereço Fisico: 400
+Endereço Virtual: 416 | Segmento: BSS | Pagina: 26 | Offset: 0 | Endereço Fisico: 416
+Endereço Virtual: 432 | Segmento: BSS | Pagina: 27 | Offset: 0 | Endereço Fisico: 432
+Endereço Virtual: 448 | Segmento: BSS | Pagina: 28 | Offset: 0 | Endereço Fisico: 448
+Endereço Virtual: 464 | Segmento: BSS | Pagina: 29 | Offset: 0 | Endereço Fisico: 464
+Endereço Virtual: 480 | Segmento: BSS | Pagina: 30 | Offset: 0 | Endereço Fisico: 480
+Endereço Virtual: 496 | Segmento: BSS | Pagina: 31 | Offset: 0 | Endereço Fisico: 496
+Endereço Virtual: 512 | Segmento: BSS | Pagina: 32 | Offset: 0 | Endereço Fisico: 512
+Endereço Virtual: 528 | Segmento: BSS | Pagina: 33 | Offset: 0 | Endereço Fisico: 528
+Endereço Virtual: 544 | Segmento: BSS | Pagina: 34 | Offset: 0 | Endereço Fisico: 544
+Endereço Virtual: 560 | Segmento: BSS | Pagina: 35 | Offset: 0 | Endereço Fisico: 560
+Endereço Virtual: 576 | Segmento: BSS | Pagina: 36 | Offset: 0 | Endereço Fisico: 576
+Endereço Virtual: 592 | Segmento: BSS | Pagina: 37 | Offset: 0 | Endereço Fisico: 592
+Endereço Virtual: 608 | Segmento: BSS | Pagina: 38 | Offset: 0 | Endereço Fisico: 608
+Endereço Virtual: 624 | Segmento: BSS | Pagina: 39 | Offset: 0 | Endereço Fisico: 624
+Endereço Virtual: 640 | Segmento: BSS | Pagina: 40 | Offset: 0 | Endereço Fisico: 640
+Endereço Virtual: 656 | Segmento: BSS | Pagina: 41 | Offset: 0 | Endereço Fisico: 656
+Endereço Virtual: 672 | Segmento: BSS | Pagina: 42 | Offset: 0 | Endereço Fisico: 672
+Endereço Virtual: 688 | Segmento: BSS | Pagina: 43 | Offset: 0 | Endereço Fisico: 688
+Endereço Virtual: 704 | Segmento: BSS | Pagina: 44 | Offset: 0 | Endereço Fisico: 704
+Endereço Virtual: 720 | Segmento: BSS | Pagina: 45 | Offset: 0 | Endereço Fisico: 720
+Endereço Virtual: 736 | Segmento: BSS | Pagina: 46 | Offset: 0 | Endereço Fisico: 736
+Endereço Virtual: 752 | Segmento: BSS | Pagina: 47 | Offset: 0 | Endereço Fisico: 752
+Endereço Virtual: 768 | Segmento: BSS | Pagina: 48 | Offset: 0 | Endereço Fisico: 768
+Endereço Virtual: 784 | Segmento: BSS | Pagina: 49 | Offset: 0 | Endereço Fisico: 784
+Endereço Virtual: 800 | Segmento: BSS | Pagina: 50 | Offset: 0 | Endereço Fisico: 800
+Endereço Virtual: 816 | Segmento: BSS | Pagina: 51 | Offset: 0 | Endereço Fisico: 816
+Endereço Virtual: 832 | Segmento: BSS | Pagina: 52 | Offset: 0 | Endereço Fisico: 832
+Endereço Virtual: 848 | Segmento: BSS | Pagina: 53 | Offset: 0 | Endereço Fisico: 848
+Endereço Virtual: 864 | Segmento: BSS | Pagina: 54 | Offset: 0 | Endereço Fisico: 864
+Endereço Virtual: 880 | Segmento: BSS | Pagina: 55 | Offset: 0 | Endereço Fisico: 880
+Endereço Virtual: 896 | Segmento: BSS | Pagina: 56 | Offset: 0 | Endereço Fisico: 896
+Endereço Virtual: 912 | Segmento: BSS | Pagina: 57 | Offset: 0 | Endereço Fisico: 912
+Endereço Virtual: 928 | Segmento: BSS | Pagina: 58 | Offset: 0 | Endereço Fisico: 928
+Endereço Virtual: 944 | Segmento: BSS | Pagina: 59 | Offset: 0 | Endereço Fisico: 944
+Endereço Virtual: 960 | Segmento: BSS | Pagina: 60 | Offset: 0 | Endereço Fisico: 960
+Endereço Virtual: 976 | Segmento: BSS | Pagina: 61 | Offset: 0 | Endereço Fisico: 976
+Endereço Virtual: 992 | Segmento: BSS | Pagina: 62 | Offset: 0 | Endereço Fisico: 992
+Endereço Virtual: 1008 | Segmento: BSS | Pagina: 63 | Offset: 0 | Endereço Fisico: 1008
+Endereço Virtual: 0 | Segmento: TEXT | Pagina: 0 | Offset: 0 | Endereço Fisico: 0
+Endereço Virtual: 16 | Segmento: TEXT | Pagina: 1 | Offset: 0 | Endereço Fisico: 16
+Endereço Virtual: 32 | Segmento: TEXT | Pagina: 2 | Offset: 0 | Endereço Fisico: 32
+Endereço Virtual: 48 | Segmento: TEXT | Pagina: 3 | Offset: 0 | Endereço Fisico: 48
+Endereço Virtual: 64 | Segmento: TEXT | Pagina: 4 | Offset: 0 | Endereço Fisico: 64
+Endereço Virtual: 80 | Segmento: TEXT | Pagina: 5 | Offset: 0 | Endereço Fisico: 80
+Endereço Virtual: 96 | Segmento: TEXT | Pagina: 6 | Offset: 0 | Endereço Fisico: 96
+Endereço Virtual: 112 | Segmento: TEXT | Pagina: 7 | Offset: 0 | Endereço Fisico: 112
+Endereço Virtual: 128 | Segmento: DATA | Pagina: 8 | Offset: 0 | Endereço Fisico: 128
+Endereço Virtual: 144 | Segmento: DATA | Pagina: 9 | Offset: 0 | Endereço Fisico: 144
+Endereço Virtual: 160 | Segmento: DATA | Pagina: 10 | Offset: 0 | Endereço Fisico: 160
+Endereço Virtual: 176 | Segmento: DATA | Pagina: 11 | Offset: 0 | Endereço Fisico: 176
+Endereço Virtual: 192 | Segmento: DATA | Pagina: 12 | Offset: 0 | Endereço Fisico: 192
+Endereço Virtual: 208 | Segmento: DATA | Pagina: 13 | Offset: 0 | Endereço Fisico: 208
+Endereço Virtual: 224 | Segmento: DATA | Pagina: 14 | Offset: 0 | Endereço Fisico: 224
+Endereço Virtual: 240 | Segmento: DATA | Pagina: 15 | Offset: 0 | Endereço Fisico: 240
+Endereço Virtual: 256 | Segmento: STACK | Pagina: 16 | Offset: 0 | Endereço Fisico: 256
+Endereço Virtual: 272 | Segmento: STACK | Pagina: 17 | Offset: 0 | Endereço Fisico: 272
+Endereço Virtual: 288 | Segmento: STACK | Pagina: 18 | Offset: 0 | Endereço Fisico: 288
+Endereço Virtual: 304 | Segmento: STACK | Pagina: 19 | Offset: 0 | Endereço Fisico: 304
+Endereço Virtual: 320 | Segmento: STACK | Pagina: 20 | Offset: 0 | Endereço Fisico: 320
+Endereço Virtual: 336 | Segmento: STACK | Pagina: 21 | Offset: 0 | Endereço Fisico: 336
+Endereço Virtual: 352 | Segmento: STACK | Pagina: 22 | Offset: 0 | Endereço Fisico: 352
+Endereço Virtual: 368 | Segmento: STACK | Pagina: 23 | Offset: 0 | Endereço Fisico: 368
+Endereço Virtual: 384 | Segmento: BSS | Pagina: 24 | Offset: 0 | Endereço Fisico: 384
+Endereço Virtual: 400 | Segmento: BSS | Pagina: 25 | Offset: 0 | Endereço Fisico: 400
+Endereço Virtual: 416 | Segmento: BSS | Pagina: 26 | Offset: 0 | Endereço Fisico: 416
+Endereço Virtual: 432 | Segmento: BSS | Pagina: 27 | Offset: 0 | Endereço Fisico: 432
+Endereço Virtual: 448 | Segmento: BSS | Pagina: 28 | Offset: 0 | Endereço Fisico: 448
+Endereço Virtual: 464 | Segmento: BSS | Pagina: 29 | Offset: 0 | Endereço Fisico: 464
+Endereço Virtual: 480 | Segmento: BSS | Pagina: 30 | Offset: 0 | Endereço Fisico: 480
+Endereço Virtual: 496 | Segmento: BSS | Pagina: 31 | Offset: 0 | Endereço Fisico: 496
+Endereço Virtual: 512 | Segmento: BSS | Pagina: 32 | Offset: 0 | Endereço Fisico: 512
+Endereço Virtual: 528 | Segmento: BSS | Pagina: 33 | Offset: 0 | Endereço Fisico: 528
+Endereço Virtual: 544 | Segmento: BSS | Pagina: 34 | Offset: 0 | Endereço Fisico: 544
+Endereço Virtual: 560 | Segmento: BSS | Pagina: 35 | Offset: 0 | Endereço Fisico: 560
+Endereço Virtual: 576 | Segmento: BSS | Pagina: 36 | Offset: 0 | Endereço Fisico: 576
+Endereço Virtual: 592 | Segmento: BSS | Pagina: 37 | Offset: 0 | Endereço Fisico: 592
+Endereço Virtual: 608 | Segmento: BSS | Pagina: 38 | Offset: 0 | Endereço Fisico: 608
+Endereço Virtual: 624 | Segmento: BSS | Pagina: 39 | Offset: 0 | Endereço Fisico: 624
+Endereço Virtual: 640 | Segmento: BSS | Pagina: 40 | Offset: 0 | Endereço Fisico: 640
+Endereço Virtual: 656 | Segmento: BSS | Pagina: 41 | Offset: 0 | Endereço Fisico: 656
+Endereço Virtual: 672 | Segmento: BSS | Pagina: 42 | Offset: 0 | Endereço Fisico: 672
+Endereço Virtual: 688 | Segmento: BSS | Pagina: 43 | Offset: 0 | Endereço Fisico: 688
+Endereço Virtual: 704 | Segmento: BSS | Pagina: 44 | Offset: 0 | Endereço Fisico: 704
+Endereço Virtual: 720 | Segmento: BSS | Pagina: 45 | Offset: 0 | Endereço Fisico: 720
+Endereço Virtual: 736 | Segmento: BSS | Pagina: 46 | Offset: 0 | Endereço Fisico: 736
+Endereço Virtual: 752 | Segmento: BSS | Pagina: 47 | Offset: 0 | Endereço Fisico: 752
+Endereço Virtual: 768 | Segmento: BSS | Pagina: 48 | Offset: 0 | Endereço Fisico: 768
+Endereço Virtual: 784 | Segmento: BSS | Pagina: 49 | Offset: 0 | Endereço Fisico: 784
+Endereço Virtual: 800 | Segmento: BSS | Pagina: 50 | Offset: 0 | Endereço Fisico: 800
+Endereço Virtual: 816 | Segmento: BSS | Pagina: 51 | Offset: 0 | Endereço Fisico: 816
+Endereço Virtual: 832 | Segmento: BSS | Pagina: 52 | Offset: 0 | Endereço Fisico: 832
+Endereço Virtual: 848 | Segmento: BSS | Pagina: 53 | Offset: 0 | Endereço Fisico: 848
+Endereço Virtual: 864 | Segmento: BSS | Pagina: 54 | Offset: 0 | Endereço Fisico: 864
+Endereço Virtual: 880 | Segmento: BSS | Pagina: 55 | Offset: 0 | Endereço Fisico: 880
+Endereço Virtual: 896 | Segmento: BSS | Pagina: 56 | Offset: 0 | Endereço Fisico: 896
+Endereço Virtual: 912 | Segmento: BSS | Pagina: 57 | Offset: 0 | Endereço Fisico: 912
+Endereço Virtual: 928 | Segmento: BSS | Pagina: 58 | Offset: 0 | Endereço Fisico: 928
+Endereço Virtual: 944 | Segmento: BSS | Pagina: 59 | Offset: 0 | Endereço Fisico: 944
+Endereço Virtual: 960 | Segmento: BSS | Pagina: 60 | Offset: 0 | Endereço Fisico: 960
+Endereço Virtual: 976 | Segmento: BSS | Pagina: 61 | Offset: 0 | Endereço Fisico: 976
+Endereço Virtual: 992 | Segmento: BSS | Pagina: 62 | Offset: 0 | Endereço Fisico: 992
+Endereço Virtual: 1008 | Segmento: BSS | Pagina: 63 | Offset: 0 | Endereço Fisico: 1008
+Endereço Virtual: 0 | Segmento: TEXT | Pagina: 0 | Offset: 0 | Endereço Fisico: 0
+Endereço Virtual: 16 | Segmento: TEXT | Pagina: 1 | Offset: 0 | Endereço Fisico: 16
+Endereço Virtual: 32 | Segmento: TEXT | Pagina: 2 | Offset: 0 | Endereço Fisico: 32
+Endereço Virtual: 48 | Segmento: TEXT | Pagina: 3 | Offset: 0 | Endereço Fisico: 48
+Endereço Virtual: 64 | Segmento: TEXT | Pagina: 4 | Offset: 0 | Endereço Fisico: 64
+Endereço Virtual: 80 | Segmento: TEXT | Pagina: 5 | Offset: 0 | Endereço Fisico: 80
+Endereço Virtual: 96 | Segmento: TEXT | Pagina: 6 | Offset: 0 | Endereço Fisico: 96
+Endereço Virtual: 112 | Segmento: TEXT | Pagina: 7 | Offset: 0 | Endereço Fisico: 112
+Endereço Virtual: 128 | Segmento: DATA | Pagina: 8 | Offset: 0 | Endereço Fisico: 128
+Endereço Virtual: 144 | Segmento: DATA | Pagina: 9 | Offset: 0 | Endereço Fisico: 144
+Endereço Virtual: 160 | Segmento: DATA | Pagina: 10 | Offset: 0 | Endereço Fisico: 160
+Endereço Virtual: 176 | Segmento: DATA | Pagina: 11 | Offset: 0 | Endereço Fisico: 176
+Endereço Virtual: 192 | Segmento: DATA | Pagina: 12 | Offset: 0 | Endereço Fisico: 192
+Endereço Virtual: 208 | Segmento: DATA | Pagina: 13 | Offset: 0 | Endereço Fisico: 208
+Endereço Virtual: 224 | Segmento: DATA | Pagina: 14 | Offset: 0 | Endereço Fisico: 224
+Endereço Virtual: 240 | Segmento: DATA | Pagina: 15 | Offset: 0 | Endereço Fisico: 240
+Endereço Virtual: 256 | Segmento: STACK | Pagina: 16 | Offset: 0 | Endereço Fisico: 256
+Endereço Virtual: 272 | Segmento: STACK | Pagina: 17 | Offset: 0 | Endereço Fisico: 272
+Endereço Virtual: 288 | Segmento: STACK | Pagina: 18 | Offset: 0 | Endereço Fisico: 288
+Endereço Virtual: 304 | Segmento: STACK | Pagina: 19 | Offset: 0 | Endereço Fisico: 304
+Endereço Virtual: 320 | Segmento: STACK | Pagina: 20 | Offset: 0 | Endereço Fisico: 320
+Endereço Virtual: 336 | Segmento: STACK | Pagina: 21 | Offset: 0 | Endereço Fisico: 336
+Endereço Virtual: 352 | Segmento: STACK | Pagina: 22 | Offset: 0 | Endereço Fisico: 352
+Endereço Virtual: 368 | Segmento: STACK | Pagina: 23 | Offset: 0 | Endereço Fisico: 368
+Endereço Virtual: 384 | Segmento: BSS | Pagina: 24 | Offset: 0 | Endereço Fisico: 384
+Endereço Virtual: 400 | Segmento: BSS | Pagina: 25 | Offset: 0 | Endereço Fisico: 400
+Endereço Virtual: 416 | Segmento: BSS | Pagina: 26 | Offset: 0 | Endereço Fisico: 416
+Endereço Virtual: 432 | Segmento: BSS | Pagina: 27 | Offset: 0 | Endereço Fisico: 432
+Endereço Virtual: 448 | Segmento: BSS | Pagina: 28 | Offset: 0 | Endereço Fisico: 448
+Endereço Virtual: 464 | Segmento: BSS | Pagina: 29 | Offset: 0 | Endereço Fisico: 464
+Endereço Virtual: 480 | Segmento: BSS | Pagina: 30 | Offset: 0 | Endereço Fisico: 480
+Endereço Virtual: 496 | Segmento: BSS | Pagina: 31 | Offset: 0 | Endereço Fisico: 496
+Endereço Virtual: 512 | Segmento: BSS | Pagina: 32 | Offset: 0 | Endereço Fisico: 512
+Endereço Virtual: 528 | Segmento: BSS | Pagina: 33 | Offset: 0 | Endereço Fisico: 528
+Endereço Virtual: 544 | Segmento: BSS | Pagina: 34 | Offset: 0 | Endereço Fisico: 544
+Endereço Virtual: 560 | Segmento: BSS | Pagina: 35 | Offset: 0 | Endereço Fisico: 560
+Endereço Virtual: 576 | Segmento: BSS | Pagina: 36 | Offset: 0 | Endereço Fisico: 576
+Endereço Virtual: 592 | Segmento: BSS | Pagina: 37 | Offset: 0 | Endereço Fisico: 592
+Endereço Virtual: 608 | Segmento: BSS | Pagina: 38 | Offset: 0 | Endereço Fisico: 608
+Endereço Virtual: 624 | Segmento: BSS | Pagina: 39 | Offset: 0 | Endereço Fisico: 624
+Endereço Virtual: 640 | Segmento: BSS | Pagina: 40 | Offset: 0 | Endereço Fisico: 640
+Endereço Virtual: 656 | Segmento: BSS | Pagina: 41 | Offset: 0 | Endereço Fisico: 656
+Endereço Virtual: 672 | Segmento: BSS | Pagina: 42 | Offset: 0 | Endereço Fisico: 672
+Endereço Virtual: 688 | Segmento: BSS | Pagina: 43 | Offset: 0 | Endereço Fisico: 688
+Endereço Virtual: 704 | Segmento: BSS | Pagina: 44 | Offset: 0 | Endereço Fisico: 704
+Endereço Virtual: 720 | Segmento: BSS | Pagina: 45 | Offset: 0 | Endereço Fisico: 720
+Endereço Virtual: 736 | Segmento: BSS | Pagina: 46 | Offset: 0 | Endereço Fisico: 736
+Endereço Virtual: 752 | Segmento: BSS | Pagina: 47 | Offset: 0 | Endereço Fisico: 752
+Endereço Virtual: 768 | Segmento: BSS | Pagina: 48 | Offset: 0 | Endereço Fisico: 768
+Endereço Virtual: 784 | Segmento: BSS | Pagina: 49 | Offset: 0 | Endereço Fisico: 784
+Endereço Virtual: 800 | Segmento: BSS | Pagina: 50 | Offset: 0 | Endereço Fisico: 800
+Endereço Virtual: 816 | Segmento: BSS | Pagina: 51 | Offset: 0 | Endereço Fisico: 816
+Endereço Virtual: 832 | Segmento: BSS | Pagina: 52 | Offset: 0 | Endereço Fisico: 832
+Endereço Virtual: 848 | Segmento: BSS | Pagina: 53 | Offset: 0 | Endereço Fisico: 848
+Endereço Virtual: 864 | Segmento: BSS | Pagina: 54 | Offset: 0 | Endereço Fisico: 864
+Endereço Virtual: 880 | Segmento: BSS | Pagina: 55 | Offset: 0 | Endereço Fisico: 880
+Endereço Virtual: 896 | Segmento: BSS | Pagina: 56 | Offset: 0 | Endereço Fisico: 896
+Endereço Virtual: 912 | Segmento: BSS | Pagina: 57 | Offset: 0 | Endereço Fisico: 912
+Endereço Virtual: 928 | Segmento: BSS | Pagina: 58 | Offset: 0 | Endereço Fisico: 928
+Endereço Virtual: 944 | Segmento: BSS | Pagina: 59 | Offset: 0 | Endereço Fisico: 944
+Endereço Virtual: 960 | Segmento: BSS | Pagina: 60 | Offset: 0 | Endereço Fisico: 960
+Endereço Virtual: 976 | Segmento: BSS | Pagina: 61 | Offset: 0 | Endereço Fisico: 976
+Endereço Virtual: 992 | Segmento: BSS | Pagina: 62 | Offset: 0 | Endereço Fisico: 992
+Endereço Virtual: 1008 | Segmento: BSS | Pagina: 63 | Offset: 0 | Endereço Fisico: 1008
+Endereço Virtual: 0 | Segmento: TEXT | Pagina: 0 | Offset: 0 | Endereço Fisico: 0
+Endereço Virtual: 16 | Segmento: TEXT | Pagina: 1 | Offset: 0 | Endereço Fisico: 16
+Endereço Virtual: 32 | Segmento: TEXT | Pagina: 2 | Offset: 0 | Endereço Fisico: 32
+Endereço Virtual: 48 | Segmento: TEXT | Pagina: 3 | Offset: 0 | Endereço Fisico: 48
+Endereço Virtual: 64 | Segmento: TEXT | Pagina: 4 | Offset: 0 | Endereço Fisico: 64
+Endereço Virtual: 80 | Segmento: TEXT | Pagina: 5 | Offset: 0 | Endereço Fisico: 80
+Endereço Virtual: 96 | Segmento: TEXT | Pagina: 6 | Offset: 0 | Endereço Fisico: 96
+Endereço Virtual: 112 | Segmento: TEXT | Pagina: 7 | Offset: 0 | Endereço Fisico: 112
+Endereço Virtual: 128 | Segmento: DATA | Pagina: 8 | Offset: 0 | Endereço Fisico: 128
+Endereço Virtual: 144 | Segmento: DATA | Pagina: 9 | Offset: 0 | Endereço Fisico: 144
+Endereço Virtual: 160 | Segmento: DATA | Pagina: 10 | Offset: 0 | Endereço Fisico: 160
+Endereço Virtual: 176 | Segmento: DATA | Pagina: 11 | Offset: 0 | Endereço Fisico: 176
+Endereço Virtual: 192 | Segmento: DATA | Pagina: 12 | Offset: 0 | Endereço Fisico: 192
+Endereço Virtual: 208 | Segmento: DATA | Pagina: 13 | Offset: 0 | Endereço Fisico: 208
+Endereço Virtual: 224 | Segmento: DATA | Pagina: 14 | Offset: 0 | Endereço Fisico: 224
+Endereço Virtual: 240 | Segmento: DATA | Pagina: 15 | Offset: 0 | Endereço Fisico: 240
+Endereço Virtual: 256 | Segmento: STACK | Pagina: 16 | Offset: 0 | Endereço Fisico: 256
+Endereço Virtual: 272 | Segmento: STACK | Pagina: 17 | Offset: 0 | Endereço Fisico: 272
+Endereço Virtual: 288 | Segmento: STACK | Pagina: 18 | Offset: 0 | Endereço Fisico: 288
+Endereço Virtual: 304 | Segmento: STACK | Pagina: 19 | Offset: 0 | Endereço Fisico: 304
+Endereço Virtual: 320 | Segmento: STACK | Pagina: 20 | Offset: 0 | Endereço Fisico: 320
+Endereço Virtual: 336 | Segmento: STACK | Pagina: 21 | Offset: 0 | Endereço Fisico: 336
+Endereço Virtual: 352 | Segmento: STACK | Pagina: 22 | Offset: 0 | Endereço Fisico: 352
+Endereço Virtual: 368 | Segmento: STACK | Pagina: 23 | Offset: 0 | Endereço Fisico: 368
+Endereço Virtual: 384 | Segmento: BSS | Pagina: 24 | Offset: 0 | Endereço Fisico: 384
+Endereço Virtual: 400 | Segmento: BSS | Pagina: 25 | Offset: 0 | Endereço Fisico: 400
+Endereço Virtual: 416 | Segmento: BSS | Pagina: 26 | Offset: 0 | Endereço Fisico: 416
+Endereço Virtual: 432 | Segmento: BSS | Pagina: 27 | Offset: 0 | Endereço Fisico: 432
+Endereço Virtual: 448 | Segmento: BSS | Pagina: 28 | Offset: 0 | Endereço Fisico: 448
+Endereço Virtual: 464 | Segmento: BSS | Pagina: 29 | Offset: 0 | Endereço Fisico: 464
+Endereço Virtual: 480 | Segmento: BSS | Pagina: 30 | Offset: 0 | Endereço Fisico: 480
+Endereço Virtual: 496 | Segmento: BSS | Pagina: 31 | Offset: 0 | Endereço Fisico: 496
+Endereço Virtual: 512 | Segmento: BSS | Pagina: 32 | Offset: 0 | Endereço Fisico: 512
+Endereço Virtual: 528 | Segmento: BSS | Pagina: 33 | Offset: 0 | Endereço Fisico: 528
+Endereço Virtual: 544 | Segmento: BSS | Pagina: 34 | Offset: 0 | Endereço Fisico: 544
+Endereço Virtual: 560 | Segmento: BSS | Pagina: 35 | Offset: 0 | Endereço Fisico: 560
+Endereço Virtual: 576 | Segmento: BSS | Pagina: 36 | Offset: 0 | Endereço Fisico: 576
+Endereço Virtual: 592 | Segmento: BSS | Pagina: 37 | Offset: 0 | Endereço Fisico: 592
+Endereço Virtual: 608 | Segmento: BSS | Pagina: 38 | Offset: 0 | Endereço Fisico: 608
+Endereço Virtual: 624 | Segmento: BSS | Pagina: 39 | Offset: 0 | Endereço Fisico: 624
+Endereço Virtual: 640 | Segmento: BSS | Pagina: 40 | Offset: 0 | Endereço Fisico: 640
+Endereço Virtual: 656 | Segmento: BSS | Pagina: 41 | Offset: 0 | Endereço Fisico: 656
+Endereço Virtual: 672 | Segmento: BSS | Pagina: 42 | Offset: 0 | Endereço Fisico: 672
+Endereço Virtual: 688 | Segmento: BSS | Pagina: 43 | Offset: 0 | Endereço Fisico: 688
+Endereço Virtual: 0 | Segmento: TEXT | Pagina: 0 | Offset: 0 | Endereço Fisico: 0
+Endereço Virtual: 16 | Segmento: TEXT | Pagina: 1 | Offset: 0 | Endereço Fisico: 16
+Endereço Virtual: 32 | Segmento: TEXT | Pagina: 2 | Offset: 0 | Endereço Fisico: 32
+Endereço Virtual: 48 | Segmento: TEXT | Pagina: 3 | Offset: 0 | Endereço Fisico: 48
+Endereço Virtual: 64 | Segmento: TEXT | Pagina: 4 | Offset: 0 | Endereço Fisico: 64
+Endereço Virtual: 80 | Segmento: TEXT | Pagina: 5 | Offset: 0 | Endereço Fisico: 80
+Endereço Virtual: 96 | Segmento: TEXT | Pagina: 6 | Offset: 0 | Endereço Fisico: 96
+Endereço Virtual: 112 | Segmento: TEXT | Pagina: 7 | Offset: 0 | Endereço Fisico: 112
+Endereço Virtual: 128 | Segmento: DATA | Pagina: 8 | Offset: 0 | Endereço Fisico: 128
+Endereço Virtual: 144 | Segmento: DATA | Pagina: 9 | Offset: 0 | Endereço Fisico: 144
+Endereço Virtual: 160 | Segmento: DATA | Pagina: 10 | Offset: 0 | Endereço Fisico: 160
+Endereço Virtual: 176 | Segmento: DATA | Pagina: 11 | Offset: 0 | Endereço Fisico: 176
+Endereço Virtual: 192 | Segmento: DATA | Pagina: 12 | Offset: 0 | Endereço Fisico: 192
+Endereço Virtual: 208 | Segmento: DATA | Pagina: 13 | Offset: 0 | Endereço Fisico: 208
+Endereço Virtual: 224 | Segmento: DATA | Pagina: 14 | Offset: 0 | Endereço Fisico: 224
+Endereço Virtual: 240 | Segmento: DATA | Pagina: 15 | Offset: 0 | Endereço Fisico: 240
+Endereço Virtual: 256 | Segmento: STACK | Pagina: 16 | Offset: 0 | Endereço Fisico: 256
+Endereço Virtual: 272 | Segmento: STACK | Pagina: 17 | Offset: 0 | Endereço Fisico: 272
+Endereço Virtual: 288 | Segmento: STACK | Pagina: 18 | Offset: 0 | Endereço Fisico: 288
+Endereço Virtual: 304 | Segmento: STACK | Pagina: 19 | Offset: 0 | Endereço Fisico: 304
+Endereço Virtual: 320 | Segmento: STACK | Pagina: 20 | Offset: 0 | Endereço Fisico: 320
+Endereço Virtual: 336 | Segmento: STACK | Pagina: 21 | Offset: 0 | Endereço Fisico: 336
+Endereço Virtual: 352 | Segmento: STACK | Pagina: 22 | Offset: 0 | Endereço Fisico: 352
+Endereço Virtual: 368 | Segmento: STACK | Pagina: 23 | Offset: 0 | Endereço Fisico: 368
+Endereço Virtual: 384 | Segmento: BSS | Pagina: 24 | Offset: 0 | Endereço Fisico: 384
+Endereço Virtual: 400 | Segmento: BSS | Pagina: 25 | Offset: 0 | Endereço Fisico: 400
+Endereço Virtual: 416 | Segmento: BSS | Pagina: 26 | Offset: 0 | Endereço Fisico: 416
+Endereço Virtual: 432 | Segmento: BSS | Pagina: 27 | Offset: 0 | Endereço Fisico: 432
+Endereço Virtual: 448 | Segmento: BSS | Pagina: 28 | Offset: 0 | Endereço Fisico: 448
+Endereço Virtual: 464 | Segmento: BSS | Pagina: 29 | Offset: 0 | Endereço Fisico: 464
+Endereço Virtual: 480 | Segmento: BSS | Pagina: 30 | Offset: 0 | Endereço Fisico: 480
+Endereço Virtual: 496 | Segmento: BSS | Pagina: 31 | Offset: 0 | Endereço Fisico: 496
+Endereço Virtual: 512 | Segmento: BSS | Pagina: 32 | Offset: 0 | Endereço Fisico: 512
+Endereço Virtual: 528 | Segmento: BSS | Pagina: 33 | Offset: 0 | Endereço Fisico: 528
+Endereço Virtual: 544 | Segmento: BSS | Pagina: 34 | Offset: 0 | Endereço Fisico: 544
+Endereço Virtual: 560 | Segmento: BSS | Pagina: 35 | Offset: 0 | Endereço Fisico: 560
+Endereço Virtual: 576 | Segmento: BSS | Pagina: 36 | Offset: 0 | Endereço Fisico: 576
+Endereço Virtual: 592 | Segmento: BSS | Pagina: 37 | Offset: 0 | Endereço Fisico: 592
+Endereço Virtual: 608 | Segmento: BSS | Pagina: 38 | Offset: 0 | Endereço Fisico: 608
+Endereço Virtual: 624 | Segmento: BSS | Pagina: 39 | Offset: 0 | Endereço Fisico: 624
+Endereço Virtual: 640 | Segmento: BSS | Pagina: 40 | Offset: 0 | Endereço Fisico: 640
+Endereço Virtual: 656 | Segmento: BSS | Pagina: 41 | Offset: 0 | Endereço Fisico: 656
+Endereço Virtual: 672 | Segmento: BSS | Pagina: 42 | Offset: 0 | Endereço Fisico: 672
+Endereço Virtual: 688 | Segmento: BSS | Pagina: 43 | Offset: 0 | Endereço Fisico: 688
+Endereço Virtual: 704 | Segmento: BSS | Pagina: 44 | Offset: 0 | Endereço Fisico: 704
+Endereço Virtual: 720 | Segmento: BSS | Pagina: 45 | Offset: 0 | Endereço Fisico: 720
+Endereço Virtual: 736 | Segmento: BSS | Pagina: 46 | Offset: 0 | Endereço Fisico: 736
+Endereço Virtual: 752 | Segmento: BSS | Pagina: 47 | Offset: 0 | Endereço Fisico: 752
+Endereço Virtual: 768 | Segmento: BSS | Pagina: 48 | Offset: 0 | Endereço Fisico: 768
+Endereço Virtual: 784 | Segmento: BSS | Pagina: 49 | Offset: 0 | Endereço Fisico: 784
+Endereço Virtual: 800 | Segmento: BSS | Pagina: 50 | Offset: 0 | Endereço Fisico: 800
+Endereço Virtual: 816 | Segmento: BSS | Pagina: 51 | Offset: 0 | Endereço Fisico: 816
+Endereço Virtual: 832 | Segmento: BSS | Pagina: 52 | Offset: 0 | Endereço Fisico: 832
+Endereço Virtual: 848 | Segmento: BSS | Pagina: 53 | Offset: 0 | Endereço Fisico: 848
+Endereço Virtual: 864 | Segmento: BSS | Pagina: 54 | Offset: 0 | Endereço Fisico: 864
+Endereço Virtual: 880 | Segmento: BSS | Pagina: 55 | Offset: 0 | Endereço Fisico: 880
+Endereço Virtual: 896 | Segmento: BSS | Pagina: 56 | Offset: 0 | Endereço Fisico: 896
+Endereço Virtual: 912 | Segmento: BSS | Pagina: 57 | Offset: 0 | Endereço Fisico: 912
+Endereço Virtual: 928 | Segmento: BSS | Pagina: 58 | Offset: 0 | Endereço Fisico: 928
+Endereço Virtual: 944 | Segmento: BSS | Pagina: 59 | Offset: 0 | Endereço Fisico: 944
+Endereço Virtual: 960 | Segmento: BSS | Pagina: 60 | Offset: 0 | Endereço Fisico: 960
+Endereço Virtual: 976 | Segmento: BSS | Pagina: 61 | Offset: 0 | Endereço Fisico: 976
+Endereço Virtual: 992 | Segmento: BSS | Pagina: 62 | Offset: 0 | Endereço Fisico: 992
+Endereço Virtual: 1008 | Segmento: BSS | Pagina: 63 | Offset: 0 | Endereço Fisico: 1008
+Memoria fisica cheia. Encerrando.
 
-=== Tabela de Páginas ===
+=== Tabela de Paginas ===
 Página 0: 0
 Página 1: 1
-Página 2: -1
-Página 3: -1
-Página 4: -1
-Página 5: -1
-Página 6: -1
-Página 7: -1
-Página 8: -1
-Página 9: -1
-Página 10: -1
-Página 11: -1
-Página 12: -1
-Página 13: -1
-Página 14: -1
-Página 15: 2
-Página 16: -1
-Página 17: -1
-Página 18: -1
-Página 19: -1
-Página 20: -1
-Página 21: -1
-Página 22: -1
-Página 23: -1
-Página 24: -1
-Página 25: -1
-Página 26: -1
-Página 27: -1
-Página 28: -1
-Página 29: -1
-Página 30: -1
-Página 31: -1
-Página 32: -1
-Página 33: -1
-Página 34: -1
-Página 35: -1
-Página 36: -1
-Página 37: 3
-Página 38: -1
-Página 39: -1
-Página 40: -1
-Página 41: -1
-Página 42: -1
-Página 43: -1
-Página 44: -1
-Página 45: -1
-Página 46: -1
-Página 47: -1
-Página 48: -1
-Página 49: -1
-Página 50: 4
-Página 51: -1
-Página 52: -1
-Página 53: -1
-Página 54: -1
-Página 55: -1
-Página 56: -1
-Página 57: -1
-Página 58: -1
-Página 59: -1
-Página 60: -1
-Página 61: -1
-Página 62: -1
-Página 63: 5
+Página 2: 2
+Página 3: 3
+Página 4: 4
+Página 5: 5
+Página 6: 6
+Página 7: 7
+Página 8: 8
+Página 9: 9
+Página 10: 10
+Página 11: 11
+Página 12: 12
+Página 13: 13
+Página 14: 14
+Página 15: 15
+Página 16: 16
+Página 17: 17
+Página 18: 18
+Página 19: 19
+Página 20: 20
+Página 21: 21
+Página 22: 22
+Página 23: 23
+Página 24: 24
+Página 25: 25
+Página 26: 26
+Página 27: 27
+Página 28: 28
+Página 29: 29
+Página 30: 30
+Página 31: 31
+Página 32: 32
+Página 33: 33
+Página 34: 34
+Página 35: 35
+Página 36: 36
+Página 37: 37
+Página 38: 38
+Página 39: 39
+Página 40: 40
+Página 41: 41
+Página 42: 42
+Página 43: 43
+Página 44: 44
+Página 45: 45
+Página 46: 46
+Página 47: 47
+Página 48: 48
+Página 49: 49
+Página 50: 50
+Página 51: 51
+Página 52: 52
+Página 53: 53
+Página 54: 54
+Página 55: 55
+Página 56: 56
+Página 57: 57
+Página 58: 58
+Página 59: 59
+Página 60: 60
+Página 61: 61
+Página 62: 62
+Página 63: 63
+Página 64: -1
+Página 65: -1
+Página 66: -1
+Página 67: -1
+Página 68: -1
+Página 69: -1
+Página 70: -1
+Página 71: -1
+Página 72: -1
+Página 73: -1
+Página 74: -1
+Página 75: -1
+Página 76: -1
+Página 77: -1
+Página 78: -1
+Página 79: -1
+Página 80: -1
+Página 81: -1
+Página 82: -1
+Página 83: -1
+Página 84: -1
+Página 85: -1
+Página 86: -1
+Página 87: -1
+Página 88: -1
+Página 89: -1
+Página 90: -1
+Página 91: -1
+Página 92: -1
+Página 93: -1
+Página 94: -1
+Página 95: -1
+Página 96: -1
+Página 97: -1
+Página 98: -1
+Página 99: -1
+Página 100: -1
+Página 101: -1
+Página 102: -1
+Página 103: -1
+Página 104: -1
+Página 105: -1
+Página 106: -1
+Página 107: -1
+Página 108: -1
+Página 109: -1
+Página 110: -1
+Página 111: -1
+Página 112: -1
+Página 113: -1
+Página 114: -1
+Página 115: -1
+Página 116: -1
+Página 117: -1
+Página 118: -1
+Página 119: -1
+Página 120: -1
+Página 121: -1
+Página 122: -1
+Página 123: -1
+Página 124: -1
+Página 125: -1
+Página 126: -1
+Página 127: -1
+Página 128: -1
+Página 129: -1
+Página 130: -1
+Página 131: -1
+Página 132: -1
+Página 133: -1
+Página 134: -1
+Página 135: -1
+Página 136: -1
+Página 137: -1
+Página 138: -1
+Página 139: -1
+Página 140: -1
+Página 141: -1
+Página 142: -1
+Página 143: -1
+Página 144: -1
+Página 145: -1
+Página 146: -1
+Página 147: -1
+Página 148: -1
+Página 149: -1
+Página 150: -1
+Página 151: -1
+Página 152: -1
+Página 153: -1
+Página 154: -1
+Página 155: -1
+Página 156: -1
+Página 157: -1
+Página 158: -1
+Página 159: -1
+Página 160: -1
+Página 161: -1
+Página 162: -1
+Página 163: -1
+Página 164: -1
+Página 165: -1
+Página 166: -1
+Página 167: -1
+Página 168: -1
+Página 169: -1
+Página 170: -1
+Página 171: -1
+Página 172: -1
+Página 173: -1
+Página 174: -1
+Página 175: -1
+Página 176: -1
+Página 177: -1
+Página 178: -1
+Página 179: -1
+Página 180: -1
+Página 181: -1
+Página 182: -1
+Página 183: -1
+Página 184: -1
+Página 185: -1
+Página 186: -1
+Página 187: -1
+Página 188: -1
+Página 189: -1
+Página 190: -1
+Página 191: -1
+Página 192: -1
+Página 193: -1
+Página 194: -1
+Página 195: -1
+Página 196: -1
+Página 197: -1
+Página 198: -1
+Página 199: -1
+Página 200: -1
+Página 201: -1
+Página 202: -1
+Página 203: -1
+Página 204: -1
+Página 205: -1
+Página 206: -1
+Página 207: -1
+Página 208: -1
+Página 209: -1
+Página 210: -1
+Página 211: -1
+Página 212: -1
+Página 213: -1
+Página 214: -1
+Página 215: -1
+Página 216: -1
+Página 217: -1
+Página 218: -1
+Página 219: -1
+Página 220: -1
+Página 221: -1
+Página 222: -1
+Página 223: -1
+Página 224: -1
+Página 225: -1
+Página 226: -1
+Página 227: -1
+Página 228: -1
+Página 229: -1
+Página 230: -1
+Página 231: -1
+Página 232: -1
+Página 233: -1
+Página 234: -1
+Página 235: -1
+Página 236: -1
+Página 237: -1
+Página 238: -1
+Página 239: -1
+Página 240: -1
+Página 241: -1
+Página 242: -1
+Página 243: -1
+Página 244: -1
+Página 245: -1
+Página 246: -1
+Página 247: -1
+Página 248: -1
+Página 249: -1
+Página 250: -1
+Página 251: -1
+Página 252: -1
+Página 253: -1
+Página 254: -1
+Página 255: -1
 
 
-=== Memória Física ===
+=== Memoria Fisica ===
 Moldura 0: 0
 Moldura 1: 1
-Moldura 2: 15
-Moldura 3: 37
-Moldura 4: 50
-Moldura 5: 63
-Moldura 6: -1
-Moldura 7: -1
-Moldura 8: -1
-Moldura 9: -1
-Moldura 10: -1
-Moldura 11: -1
-Moldura 12: -1
-Moldura 13: -1
-Moldura 14: -1
-Moldura 15: -1
-Moldura 16: -1
-Moldura 17: -1
-Moldura 18: -1
-Moldura 19: -1
-Moldura 20: -1
-Moldura 21: -1
-Moldura 22: -1
-Moldura 23: -1
-Moldura 24: -1
-Moldura 25: -1
-Moldura 26: -1
-Moldura 27: -1
-Moldura 28: -1
-Moldura 29: -1
-Moldura 30: -1
-Moldura 31: -1
-Moldura 32: -1
-Moldura 33: -1
-Moldura 34: -1
-Moldura 35: -1
-Moldura 36: -1
-Moldura 37: -1
-Moldura 38: -1
-Moldura 39: -1
-Moldura 40: -1
-Moldura 41: -1
-Moldura 42: -1
-Moldura 43: -1
-Moldura 44: -1
-Moldura 45: -1
-Moldura 46: -1
-Moldura 47: -1
-Moldura 48: -1
-Moldura 49: -1
-Moldura 50: -1
-Moldura 51: -1
-Moldura 52: -1
-Moldura 53: -1
-Moldura 54: -1
-Moldura 55: -1
-Moldura 56: -1
-Moldura 57: -1
-Moldura 58: -1
-Moldura 59: -1
-Moldura 60: -1
-Moldura 61: -1
-Moldura 62: -1
-Moldura 63: -1
-Moldura 64: -1
-Moldura 65: -1
-Moldura 66: -1
-Moldura 67: -1
-Moldura 68: -1
-Moldura 69: -1
-Moldura 70: -1
-Moldura 71: -1
-Moldura 72: -1
-Moldura 73: -1
-Moldura 74: -1
-Moldura 75: -1
-Moldura 76: -1
-Moldura 77: -1
-Moldura 78: -1
-Moldura 79: -1
-Moldura 80: -1
-Moldura 81: -1
-Moldura 82: -1
-Moldura 83: -1
-Moldura 84: -1
-Moldura 85: -1
-Moldura 86: -1
-Moldura 87: -1
-Moldura 88: -1
-Moldura 89: -1
-Moldura 90: -1
-Moldura 91: -1
-Moldura 92: -1
-Moldura 93: -1
-Moldura 94: -1
-Moldura 95: -1
-Moldura 96: -1
-Moldura 97: -1
-Moldura 98: -1
-Moldura 99: -1
-Moldura 100: -1
-Moldura 101: -1
-Moldura 102: -1
-Moldura 103: -1
-Moldura 104: -1
-Moldura 105: -1
-Moldura 106: -1
-Moldura 107: -1
-Moldura 108: -1
-Moldura 109: -1
-Moldura 110: -1
-Moldura 111: -1
-Moldura 112: -1
-Moldura 113: -1
-Moldura 114: -1
-Moldura 115: -1
-Moldura 116: -1
-Moldura 117: -1
-Moldura 118: -1
-Moldura 119: -1
-Moldura 120: -1
-Moldura 121: -1
-Moldura 122: -1
-Moldura 123: -1
-Moldura 124: -1
-Moldura 125: -1
-Moldura 126: -1
-Moldura 127: -1
-Moldura 128: -1
-Moldura 129: -1
-Moldura 130: -1
-Moldura 131: -1
-Moldura 132: -1
-Moldura 133: -1
-Moldura 134: -1
-Moldura 135: -1
-Moldura 136: -1
-Moldura 137: -1
-Moldura 138: -1
-Moldura 139: -1
-Moldura 140: -1
-Moldura 141: -1
-Moldura 142: -1
-Moldura 143: -1
-Moldura 144: -1
-Moldura 145: -1
-Moldura 146: -1
-Moldura 147: -1
-Moldura 148: -1
-Moldura 149: -1
-Moldura 150: -1
-Moldura 151: -1
-Moldura 152: -1
-Moldura 153: -1
-Moldura 154: -1
-Moldura 155: -1
-Moldura 156: -1
-Moldura 157: -1
-Moldura 158: -1
-Moldura 159: -1
-Moldura 160: -1
-Moldura 161: -1
-Moldura 162: -1
-Moldura 163: -1
-Moldura 164: -1
-Moldura 165: -1
-Moldura 166: -1
-Moldura 167: -1
-Moldura 168: -1
-Moldura 169: -1
-Moldura 170: -1
-Moldura 171: -1
-Moldura 172: -1
-Moldura 173: -1
-Moldura 174: -1
-Moldura 175: -1
-Moldura 176: -1
-Moldura 177: -1
-Moldura 178: -1
-Moldura 179: -1
-Moldura 180: -1
-Moldura 181: -1
-Moldura 182: -1
-Moldura 183: -1
-Moldura 184: -1
-Moldura 185: -1
-Moldura 186: -1
-Moldura 187: -1
-Moldura 188: -1
-Moldura 189: -1
-Moldura 190: -1
-Moldura 191: -1
-Moldura 192: -1
-Moldura 193: -1
-Moldura 194: -1
-Moldura 195: -1
-Moldura 196: -1
-Moldura 197: -1
-Moldura 198: -1
-Moldura 199: -1
-Moldura 200: -1
-Moldura 201: -1
-Moldura 202: -1
-Moldura 203: -1
-Moldura 204: -1
-Moldura 205: -1
-Moldura 206: -1
-Moldura 207: -1
-Moldura 208: -1
-Moldura 209: -1
-Moldura 210: -1
-Moldura 211: -1
-Moldura 212: -1
-Moldura 213: -1
-Moldura 214: -1
-Moldura 215: -1
-Moldura 216: -1
-Moldura 217: -1
-Moldura 218: -1
-Moldura 219: -1
-Moldura 220: -1
-Moldura 221: -1
-Moldura 222: -1
-Moldura 223: -1
-Moldura 224: -1
-Moldura 225: -1
-Moldura 226: -1
-Moldura 227: -1
-Moldura 228: -1
-Moldura 229: -1
-Moldura 230: -1
-Moldura 231: -1
-Moldura 232: -1
-Moldura 233: -1
-Moldura 234: -1
-Moldura 235: -1
-Moldura 236: -1
-Moldura 237: -1
-Moldura 238: -1
-Moldura 239: -1
-Moldura 240: -1
-Moldura 241: -1
-Moldura 242: -1
-Moldura 243: -1
-Moldura 244: -1
-Moldura 245: -1
-Moldura 246: -1
-Moldura 247: -1
-Moldura 248: -1
-Moldura 249: -1
-Moldura 250: -1
-Moldura 251: -1
-Moldura 252: -1
-Moldura 253: -1
-Moldura 254: -1
-Moldura 255: -1
+Moldura 2: 2
+Moldura 3: 3
+Moldura 4: 4
+Moldura 5: 5
+Moldura 6: 6
+Moldura 7: 7
+Moldura 8: 8
+Moldura 9: 9
+Moldura 10: 10
+Moldura 11: 11
+Moldura 12: 12
+Moldura 13: 13
+Moldura 14: 14
+Moldura 15: 15
+Moldura 16: 16
+Moldura 17: 17
+Moldura 18: 18
+Moldura 19: 19
+Moldura 20: 20
+Moldura 21: 21
+Moldura 22: 22
+Moldura 23: 23
+Moldura 24: 24
+Moldura 25: 25
+Moldura 26: 26
+Moldura 27: 27
+Moldura 28: 28
+Moldura 29: 29
+Moldura 30: 30
+Moldura 31: 31
+Moldura 32: 32
+Moldura 33: 33
+Moldura 34: 34
+Moldura 35: 35
+Moldura 36: 36
+Moldura 37: 37
+Moldura 38: 38
+Moldura 39: 39
+Moldura 40: 40
+Moldura 41: 41
+Moldura 42: 42
+Moldura 43: 43
+Moldura 44: 44
+Moldura 45: 45
+Moldura 46: 46
+Moldura 47: 47
+Moldura 48: 48
+Moldura 49: 49
+Moldura 50: 50
+Moldura 51: 51
+Moldura 52: 52
+Moldura 53: 53
+Moldura 54: 54
+Moldura 55: 55
+Moldura 56: 56
+Moldura 57: 57
+Moldura 58: 58
+Moldura 59: 59
+Moldura 60: 60
+Moldura 61: 61
+Moldura 62: 62
+Moldura 63: 63
 

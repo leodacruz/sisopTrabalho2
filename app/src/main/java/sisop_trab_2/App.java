@@ -8,9 +8,9 @@ public class App {
     public static void main(String[] args) {
 
         Config config = new Config(
-                12, // bits do endereço virtual (2^10 = 1024 bytes)
-                10, // bits da memória física (2^12 = 4096 bytes)
-                4, // bits da página (2^4 = 16 bytes por página)
+                12, // bits do endereço virtual 
+                10, // bits da memória física
+                4, // bits da página 
                 128, 128, 128 // tamanhos dos segmentos em bytes
         );
 
@@ -24,9 +24,9 @@ public class App {
         try {
             String nomeArquivo = args[0];
             simulador.executar(nomeArquivo, "saida.txt");
-            System.out.println("Simulação concluída. Resultados salvos em 'saida.txt'.");
+            System.out.println("Simulacao concluida. Resultados salvos em 'saida.txt'.");
         } catch (Exception e) {
-            throw new RuntimeException("Erro ao executar a simulação: " + e.getMessage(), e);
+            throw new RuntimeException("Erro ao executar a simulacao: " + e.getMessage(), e);
         }
     }
 }
